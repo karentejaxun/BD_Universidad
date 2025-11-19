@@ -9,7 +9,6 @@ exports.create = (req, res) => {
     }
 
     const nuevaMatricula = {
-        id_matricula: req.body.id_matricula,
         nombre: req.body.nombre,
         apellido: req.body.apellido,
         carnet: req.body.carnet,
